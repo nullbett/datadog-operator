@@ -24,7 +24,7 @@ jobs:
         uses: goreleaser/goreleaser-action@v3
         with:
           version: latest
-          args: build --skip-validate --config .goreleaser-for-linux.yaml
+          args: build --skip-validate --config .goreleaser-for-linux.yaml --snapshot
   build-darwin-binary:
     runs-on: macos-latest
     steps:
