@@ -1,3 +1,4 @@
+#adding ppc64le
 before:
   hooks:
     - go mod download
