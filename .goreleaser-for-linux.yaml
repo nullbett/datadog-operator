@@ -9,6 +9,7 @@ builds:
   goarch:
   - amd64
   - arm64
+  - ppc64le
   env:
   - CGO_ENABLED=1
   overrides:
